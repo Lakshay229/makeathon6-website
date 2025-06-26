@@ -13,14 +13,14 @@ export default function HomePage(){
         <>
             <Hamburger isSpecialPage={true}/>
       <div className={styles.applyButton}>
-        {/* <Link href="https://drive.google.com/drive/folders/1uq5cZVh4UmmjikbQh-3M4khZc5t948WX?usp=drive_link" style={{textDecoration: "none"}}> */}
+        <Link href="https://drive.google.com/file/d/13PCXW-_nTlCQD83griTQ0qJjyCx6mGN5/view?usp=drive_link" style={{textDecoration: "none"}}>
         <div className={styles.offlineApply}
         style={{height: "44px", width: "312px"}}
-        // onClick={DownloadApk}
+        onClick={DownloadApk}
         >
           App Coming Soon
         </div>
-        {/* </Link> */}
+        </Link>
         <Script src="https://apply.devfolio.co/v2/sdk.js" async={true} defer={true} />
           {/* <div 
               className="apply-button"
